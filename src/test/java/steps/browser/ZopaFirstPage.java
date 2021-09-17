@@ -1,17 +1,17 @@
 package steps.browser;
 
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+//import cucumber.api.Scenario;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.assertj.core.api.SoftAssertions;
-import org.openqa.selenium.By;
-import org.testng.Assert;
 import pageobjects.BasePage;
 import pageobjects.ZopaPageObjects;
+
 
 
 public class ZopaFirstPage extends BasePage {
@@ -26,7 +26,8 @@ public class ZopaFirstPage extends BasePage {
 
 
     @When("^I click on the Personalised Loan button$")
-    public void iClickPersonalisedButton() {
+    public void iClickPersonalisedButton()
+    {
         zopaPageObjects.setPersonalisedButton();
     }
 
