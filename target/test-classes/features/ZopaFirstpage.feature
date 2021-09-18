@@ -1,11 +1,11 @@
 @CreateZopaLoan
 
-Feature: Create the zopa formd
+Feature: Create the zopa loan form
 
 As a customer I want to create a booking
 
 
-Scenario: Create a new Zopa Booking
+Scenario: Create a new Zopa loan
     Given I am on the Zopa loans home page
     When I click on the Personalised Loan button
     Then the Loan page is displayed

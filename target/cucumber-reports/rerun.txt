@@ -1,1 +1,1 @@
-classpath:features/ZopaFirstpage.feature:8
+classpath:features//ZopaFirstpage.feature:8
